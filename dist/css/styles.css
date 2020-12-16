@@ -9941,9 +9941,9 @@ h3 {
     min-width: 992px !important;
   }
 
-  .navbar {
+  /* .navbar {
     display: none;
-  }
+  } */
 
   .badge {
     border: 1px solid #000;
@@ -10110,7 +10110,6 @@ header.masthead {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
