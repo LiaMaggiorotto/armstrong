@@ -10071,9 +10071,7 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #4b64aa;
   }
-  header {
-    margin-top: 4.5rem;
-  }
+
 }
 
 header {
@@ -10087,6 +10085,7 @@ header {
         background-size: cover;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 4.5rem;
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
