@@ -10072,23 +10072,17 @@ hr.light {
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: url("https://i.imgur.com/kjXnjmr.jpg");
+.position-relative {
+  margin-top: 4.5rem;
+  background-image: url('https://i.imgur.com/kjXnjmr.jpg');
+  background-size: cover;
+  height: 75vh;
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 90%;
 }
 
+
 @media (min-width: 992px) {
-  header.masthead {
-    height: 90vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
-    padding-bottom: 0;
-  }
+  
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
