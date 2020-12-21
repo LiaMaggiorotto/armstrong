@@ -7331,6 +7331,7 @@ button.bg-dark:focus {
 
 .position-relative {
   position: relative !important;
+
 }
 
 .position-absolute {
@@ -10070,6 +10071,9 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #4b64aa;
   }
+  header {
+    margin-top: 4.5rem;
+  }
 }
 
 header {
@@ -10083,10 +10087,6 @@ header {
         background-size: cover;
         margin-left: auto;
         margin-right: auto;
-}
-
-@media (min-width: 992px) {
-  
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
