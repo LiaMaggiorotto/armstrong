@@ -20,10 +20,10 @@ Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://g
 
 Static website created for Armstrong Pressure Washing in Nashville, TN. 
 
-Site includes information regarding business, services provided, gallery of before and after photos, and direct links for contact. 
-
 Client provided logo and images and allowed free design and creativity for the completion of this site. 
 
 <img src ="https://i.imgur.com/2NocB3Xl.png">
+
+Site includes information regarding business, services provided, gallery of before and after photos, and direct links for contact. 
 
 <img src = "https://i.imgur.com/dn4kKAAl.png">
