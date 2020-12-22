@@ -588,6 +588,8 @@ pre code {
 .no-gutters > .col,
 .no-gutters > [class*=col-] {
   padding: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 .col-xl,
@@ -1295,7 +1297,7 @@ pre code {
 
   .col-lg-4 {
     flex: 0 0 23.3333333333%;
-    max-width: 33.3333333333%;
+    max-width: 20.3333333333%;
   }
 
   .col-lg-5 {
