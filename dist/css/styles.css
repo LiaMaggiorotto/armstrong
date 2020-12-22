@@ -578,6 +578,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: center;
 }
 
 .no-gutters {
@@ -586,8 +587,7 @@ pre code {
 }
 .no-gutters > .col,
 .no-gutters > [class*=col-] {
-  padding-right: 0;
-  padding-left: 0;
+  padding: 8px;
 }
 
 .col-xl,
@@ -809,6 +809,11 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
+  .row {
+    justify-content: center;
+  }
+
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1289,7 +1294,7 @@ pre code {
   }
 
   .col-lg-4 {
-    flex: 0 0 33.3333333333%;
+    flex: 0 0 23.3333333333%;
     max-width: 33.3333333333%;
   }
 
