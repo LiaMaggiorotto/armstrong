@@ -1931,6 +1931,10 @@ pre code {
     height: 320px;
     width: 320ox;
   }
+
+  #mainNav .navbar-brand {
+    font-size: 16px;
+  }
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
