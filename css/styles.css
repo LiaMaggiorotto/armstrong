@@ -1926,6 +1926,11 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+
+  .img-fluid {
+    height: 320px;
+    width: 320ox;
+  }
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
