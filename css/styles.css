@@ -4268,7 +4268,14 @@ input[type=button].btn-block {
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
+  border: none;
 }
+
+.navbar-toggler:focus{ 
+  border: none;
+  outline: none;
+}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -10034,6 +10041,8 @@ hr.light {
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
+  display: flex;
+  justify-content: flex-end;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #4b64aa;
